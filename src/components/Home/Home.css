@@ -1,0 +1,112 @@
+.Hero {
+  height: 80vh;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*  background: linear-gradient(150deg, #53f 25%, #05d5ff 70%, #a6ffcb 94%); */
+  /*   background: url(kisi-a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%); */
+}
+
+.Hero__Content {
+  padding: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 800px;
+}
+
+.Hero__Content__Header {
+  padding: 0.5rem;
+  font-size: 55px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'PlusJakartaSans-ExtraBold",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol';
+}
+
+.Hero__Content__Paragraph {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.Container {
+  height: 20vh;
+  background-color: white;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Container__Body {
+  background-color: white;
+  height: 100px;
+  padding: 1rem;
+}
+
+.Container__Body__Title {
+  font-size: 40px;
+}
+
+.Card {
+  height: 80vh;
+  background-color: white;
+  padding: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Card__one {
+  background-color: #3ebec7;
+  height: 60vh;
+  border-radius: 1rem;
+  margin: 0.3rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Patnerbox {
+  background-color: aquamarine;
+  height: 60vh;
+}
+
+.Footer {
+  height: 10vh;
+  padding: 1rem;
+  background-color: #0f0d0d;
+  color: aliceblue;
+}
+
+#stripes {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
+  -webkit-transform: skewY(-12deg);
+          transform: skewY(-12deg);
+  background: linear-gradient(150deg, #53f 25%, #05d5ff 70%, #a6ffcb 94%);
+}
+/*# sourceMappingURL=Home.css.map */
